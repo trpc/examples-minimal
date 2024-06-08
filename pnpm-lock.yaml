@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@trpc/client':
     specifier: next
-    version: 11.0.0-rc.390(@trpc/server@11.0.0-rc.390)
+    version: 11.0.0-rc.396(@trpc/server@11.0.0-rc.396)
   '@trpc/server':
     specifier: next
-    version: 11.0.0-rc.390
+    version: 11.0.0-rc.396
   zod:
     specifier: ^3.0.0
     version: 3.23.8
@@ -27,7 +27,7 @@ devDependencies:
     version: 1.15.5
   tsx:
     specifier: ^4.0.0
-    version: 4.11.2
+    version: 4.13.2
   typescript:
     specifier: ^5.4.0
     version: 5.4.5
@@ -268,16 +268,16 @@ packages:
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
     dev: true
 
-  /@trpc/client@11.0.0-rc.390(@trpc/server@11.0.0-rc.390):
-    resolution: {integrity: sha512-IT/hEekDy+ZXLFv+3NeeqcT2ka80SDyn/Yit2G7bp0xNJPjzB3l2qJvNppc3j2DrJgXWoa4lWuhVmJQA93Yf6w==}
+  /@trpc/client@11.0.0-rc.396(@trpc/server@11.0.0-rc.396):
+    resolution: {integrity: sha512-dDr70zaur6U2woaYS2bf4LIwrZ8iGXXTcLNZCt5POyQXtdwRud7qYD1EZ36sB1bqmNa/uTikohwGfa9qV5RxlQ==}
     peerDependencies:
-      '@trpc/server': 11.0.0-rc.390+d846f1796
+      '@trpc/server': 11.0.0-rc.396+e2bcb75a9
     dependencies:
-      '@trpc/server': 11.0.0-rc.390
+      '@trpc/server': 11.0.0-rc.396
     dev: false
 
-  /@trpc/server@11.0.0-rc.390:
-    resolution: {integrity: sha512-jDAG1atsGt9Uf6dv1x+JbAumCpHVHOmbezyogn8k68lgY9IlWHqvFSQXzF9Le9MH9sl7fh2sZ9u+LDO5oyraRw==}
+  /@trpc/server@11.0.0-rc.396:
+    resolution: {integrity: sha512-xn5uElk64Ji2HXp4dy7/GfMfn/8SiTsWRYPvAGrVspM9w0TWKSwr4VF/RfZGi2m75LhKP7q0PbiBHTpjl5UgFQ==}
     dev: false
 
   /@types/node@20.14.2:
@@ -1423,8 +1423,8 @@ packages:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
     dev: true
 
-  /tsx@4.11.2:
-    resolution: {integrity: sha512-V5DL5v1BuItjsQ2FN9+4OjR7n5cr8hSgN+VGmm/fd2/0cgQdBIWHcQ3bFYm/5ZTmyxkTDBUIaRuW2divgfPe0A==}
+  /tsx@4.13.2:
+    resolution: {integrity: sha512-s+WGqChkA77uU8xij1IdO9jQnwJAiWJto0bF5yJLbAZpLtNs82Qa5CwMBxWjJ7QOYU9MzBf4MCNt6lZduwkQ+g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
